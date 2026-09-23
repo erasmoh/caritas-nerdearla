@@ -1,8 +1,8 @@
-# Caritas Nerdearla
+# Caritas CodeRabbit Burrow (Nerdearla)
 
-Webapp móvil para capturar una selfie, convertirla en una card vertical estilo comic/pixel con paleta Nerdearla y descargarla como PNG. Las cards generadas pueden compartirse opcionalmente a un muro en vivo (`/muro`) que se actualiza en tiempo real durante el evento.
+Webapp móvil para capturar una selfie, convertirla en una card vertical estilo comic/pixel con paleta CodeRabbit Burrow y descargarla como PNG. Las cards generadas pueden compartirse opcionalmente a un muro en vivo (`/muro`) que se actualiza en tiempo real durante el evento.
 
-Construido para la comunidad de **Nerdearla**, liberado como open source bajo licencia [MIT](./LICENSE) para que cualquier meetup, hackathon o comunidad pueda forkearlo y adaptarlo.
+Construido para la comunidad de **CodeRabbit Burrow**, liberado como open source bajo licencia [MIT](./LICENSE) para que cualquier meetup, hackathon o comunidad pueda forkearlo y adaptarlo.
 
 ## Stack
 
@@ -15,7 +15,7 @@ Construido para la comunidad de **Nerdearla**, liberado como open source bajo li
 ## Funcionalidades
 
 - Captura de selfie desde la cámara del dispositivo (móvil o desktop).
-- Renderizado local en `<canvas>` con paleta Nerdearla (estilo 16-bit).
+- Renderizado local en `<canvas>` con paleta CodeRabbit Burrow (estilo 16-bit).
 - (Opcional) post-procesado por IA para un retrato pixel art más rico.
 - Descarga del PNG final.
 - (Opcional) compartir al muro público del evento, con feed en tiempo real.
@@ -86,7 +86,7 @@ Detalles en `app/api/generate-card/route.ts`. El cooldown por IP es de 60s, en m
 
 La app está bloqueada con cuenta regresiva hasta `NEXT_PUBLIC_EVENT_UNLOCK_AT`. Para desarrollar antes de la fecha:
 
-- Abre `/?dev=1` → setea cookie `nerdearla_dev_unlock=1` y desbloquea.
+- Abre `/?dev=1` → setea cookie `burrow_dev_unlock=1` y desbloquea.
 - Abre `/?dev_lock=1` → limpia la cookie.
 
 ## Estructura
@@ -125,4 +125,4 @@ PRs y issues bienvenidos. Lee [CONTRIBUTING.md](./CONTRIBUTING.md) para los line
 
 ## Créditos
 
-Creado originalmente por [@ErasmoHernandez](https://erasmoh.dev) con amor para la comunidad de **Nerdearla**. Si forkeas el proyecto para tu propio evento, eres libre de cambiar la atribución del footer en `app/photo-card-studio.tsx` y `app/muro/page.tsx`.
+Creado originalmente por [@ErasmoHernandez](https://erasmoh.dev) con amor para la comunidad de **CodeRabbit Burrow**. Si forkeas el proyecto para tu propio evento, eres libre de cambiar la atribución del footer en `app/photo-card-studio.tsx` y `app/muro/page.tsx`.

@@ -9,7 +9,7 @@ const MAX_IMAGE_LENGTH = 10 * 1024 * 1024;
 const AI_GENERATION_COOLDOWN_MS = 60_000;
 const DEFAULT_EVENT_UNLOCK_AT = "2026-09-23T00:00:00-03:00";
 const EVENT_UNLOCK_AT = process.env.NEXT_PUBLIC_EVENT_UNLOCK_AT ?? DEFAULT_EVENT_UNLOCK_AT;
-const DEV_UNLOCK_COOKIE = "nerdearla_dev_unlock";
+const DEV_UNLOCK_COOKIE = "burrow_dev_unlock";
 const generationCooldowns = new Map<string, number>();
 
 const prompt = `
@@ -17,7 +17,7 @@ Transform the provided selfie into a premium 16-bit pixel portrait for a vertica
 Preserve the person's likeness, face shape, hair, expression, pose, skin tone relationships, and main identifying features.
 The output must look like intentionally hand-crafted 16-bit pixel art, not a filtered photograph.
 Use chunky pixel shapes, crisp stair-stepped edges, simplified facial features, graphic clusters of light and shadow, and controlled dithering.
-Use a constrained Nerdearla-inspired palette: near-black #0A0A0A, white, warm gray, dark gray, Nerdearla red #FF323C, and small teal #00ACA8 accents.
+Use a constrained CodeRabbit Burrow-inspired palette: near-black #0C0C0B, cream #E8DCC8, warm gray, dark gray, and burnt orange #DA3C04 accents.
 Make it a centered bust portrait with a clean simple background, strong silhouette, enough headroom, visible shoulders, and empty lower space for an event overlay.
 Do not add text, logos, dates, captions, labels, borders, or extra people.
 Avoid photorealism, smooth gradients, painterly brush strokes, anime style, 3D render, and realistic camera blur.
