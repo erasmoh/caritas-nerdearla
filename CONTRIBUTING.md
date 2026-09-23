@@ -1,4 +1,4 @@
-# Contribuir a Caritas Platzi
+# Contribuir a Caritas Nerdearla
 
 ¡Gracias por querer aportar! Este es un proyecto comunitario, así que cualquier ayuda — desde un typo en el README hasta una feature nueva — es bienvenida.
 
