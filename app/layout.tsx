@@ -13,8 +13,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Nerdearla Card",
-  description: "Captura una foto y conviértela en una card 16-bit de Nerdearla.",
+  title: "CodeRabbit Burrow Card",
+  description: "Captura una foto y conviértela en una card 16-bit de CodeRabbit Burrow.",
 };
 
 export default function RootLayout({
